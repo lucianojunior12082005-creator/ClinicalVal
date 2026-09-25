@@ -1,0 +1,26 @@
+CLINICALVAULT — PWA PRONTO PARA TABLET
+
+O aplicativo foi mantido na versão atual. Esta camada adiciona somente a instalação como PWA, o nome/ícone do app e o service worker.
+
+MESMO ÍCONE
+Os PNGs da pasta icons foram gerados a partir do mesmo ClinicalVault.ico usado no pacote do Windows.
+
+COMO PUBLICAR
+1. Envie TODOS os arquivos desta pasta para uma hospedagem HTTPS.
+2. O arquivo index.html é a entrada principal.
+3. Depois de publicado, abra o endereço no tablet.
+
+ANDROID / CHROME
+1. Abra o endereço HTTPS no Chrome.
+2. Use "Instalar aplicativo" ou "Adicionar à tela inicial".
+3. O ícone aparecerá como ClinicalVault.
+
+IPAD / SAFARI
+1. Abra o endereço HTTPS no Safari.
+2. Toque em Compartilhar.
+3. Escolha "Adicionar à Tela de Início".
+
+OBSERVAÇÕES
+- A instalação PWA depende de HTTPS (ou localhost para testes).
+- As funcionalidades atuais do ClinicalVault não foram removidas.
+- O armazenamento dos prontuários permanece conforme a implementação atual do aplicativo.
