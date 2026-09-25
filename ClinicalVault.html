@@ -9,11 +9,17 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ClinicalVault">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ClinicalVault">
+    <meta name="application-name" content="ClinicalVault">
     <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/icon-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./icons/icon-48.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./icons/icon-180.png">
     <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij4KPGRlZnM+CiA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIxIj4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyNTYzZWIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxZDRlZDgiLz4KIDwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIzMCIgZmlsbD0iIzBmMTcyYSIvPgo8cGF0aCBkPSJNNjQgMTcgMTAxIDMxdjI3YzAgMjUtMTYgNDItMzcgNTNDNDMgMTAwIDI3IDgzIDI3IDU4VjMxbDM3LTE0WiIgZmlsbD0idXJsKCNnKSIvPgo8cGF0aCBkPSJNNjQgMjggOTEgMzh2MjBjMCAxOC0xMCAzMS0yNyA0MS0xNy0xMC0yNy0yMy0yNy00MVYzOGwyNy0xMFoiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii45OCIvPgo8cmVjdCB4PSI1OCIgeT0iMzkiIHdpZHRoPSIxMiIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMyNTYzZWIiLz4KPHJlY3QgeD0iNDciIHk9IjUwIiB3aWR0aD0iMzQiIGhlaWdodD0iMTIiIHJ4PSIzIiBmaWxsPSIjMjU2M2ViIi8+CjxjaXJjbGUgY3g9IjY0IiBjeT0iODgiIHI9IjgiIGZpbGw9IiMwZjE3MmEiIG9wYWNpdHk9Ii4xMiIvPgo8cGF0aCBkPSJNNjEgODdoNnY3aC02eiIgZmlsbD0iIzBmMTcyYSIgb3BhY2l0eT0iLjI4Ii8+Cjwvc3ZnPg==">
-    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij4KPGRlZnM+CiA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIxIj4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyNTYzZWIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxZDRlZDgiLz4KIDwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIzMCIgZmlsbD0iIzBmMTcyYSIvPgo8cGF0aCBkPSJNNjQgMTcgMTAxIDMxdjI3YzAgMjUtMTYgNDItMzcgNTNDNDMgMTAwIDI3IDgzIDI3IDU4VjMxbDM3LTE0WiIgZmlsbD0idXJsKCNnKSIvPgo8cGF0aCBkPSJNNjQgMjggOTEgMzh2MjBjMCAxOC0xMCAzMS0yNyA0MS0xNy0xMC0yNy0yMy0yNy00MVYzOGwyNy0xMFoiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii45OCIvPgo8cmVjdCB4PSI1OCIgeT0iMzkiIHdpZHRoPSIxMiIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMyNTYzZWIiLz4KPHJlY3QgeD0iNDciIHk9IjUwIiB3aWR0aD0iMzQiIGhlaWdodD0iMTIiIHJ4PSIzIiBmaWxsPSIjMjU2M2ViIi8+CjxjaXJjbGUgY3g9IjY0IiBjeT0iODgiIHI9IjgiIGZpbGw9IiMwZjE3MmEiIG9wYWNpdHk9Ii4xMiIvPgo8cGF0aCBkPSJNNjEgODdoNnY3aC02eiIgZmlsbD0iIzBmMTcyYSIgb3BhY2l0eT0iLjI4Ii8+Cjwvc3ZnPg==">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
     <style>

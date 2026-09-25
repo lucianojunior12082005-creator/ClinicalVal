@@ -1,0 +1,21 @@
+CLINICALVAULT — PWA (ícone corrigido para iOS/iPadOS)
+
+O ícone exibido na Tela de Início do iPad pode aparecer como uma letra quando o Safari não encontra um apple-touch-icon PNG válido. Esta versão inclui ícones PNG reais e manifesto PWA.
+
+ARQUIVOS PRINCIPAIS
+- index.html: entrada do PWA
+- ClinicalVault.html: cópia do aplicativo
+- manifest.webmanifest: nome, ícones e modo standalone
+- service-worker.js: cache/instalação do PWA
+- icons/: PNGs do mesmo ícone do ClinicalVault
+
+NO GITHUB
+1. Substitua o index.html/ClinicalVault.html pelo conteúdo desta pasta.
+2. Envie também manifest.webmanifest, service-worker.js e a pasta icons/.
+3. Faça commit/push na branch publicada pelo GitHub Pages.
+4. No iPad, abra a URL do GitHub Pages no Safari.
+5. Apague o ícone antigo do ClinicalVault da Tela de Início antes de instalar novamente, pois o iPad pode manter o ícone antigo em cache.
+6. Safari > Compartilhar > Adicionar à Tela de Início > Adicionar.
+
+OBSERVAÇÃO
+O aplicativo continua sendo o mesmo; esta atualização corrige a identificação/ícone do PWA e não remove as funcionalidades existentes.
