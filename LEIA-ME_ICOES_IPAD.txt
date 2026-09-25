@@ -1,0 +1,10 @@
+ClinicalVault PWA — correção do ícone no iPhone/iPad
+
+1. Substitua os arquivos da publicação pelo conteúdo desta pasta.
+2. Aguarde o GitHub Pages publicar.
+3. No iPad, apague o ícone antigo do ClinicalVault.
+4. No Safari, abra novamente a URL do ClinicalVault.
+5. Faça uma recarga da página.
+6. Compartilhar → Adicionar à Tela de Início → Adicionar.
+
+Os nomes dos ícones foram versionados (v2) para impedir reutilização do ícone anterior pelo cache do Safari. Foram incluídos os tamanhos Apple 120, 144, 152, 167 e 180 px.
